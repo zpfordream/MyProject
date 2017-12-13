@@ -10,4 +10,19 @@ class IndexController extends Controller {
 
         $this->display();
     }
+
+    public function head(){
+
+        $this->display();
+    }
+
+    public function left(){
+
+        $this->display();
+    }
+
+    public function right(){
+
+        $this->display();
+    }
 }

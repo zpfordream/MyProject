@@ -24,3 +24,15 @@ define('APP_PATH','./Application/');
 require '../ThinkPHP/ThinkPHP.php';
 
 // 亲^_^ 后面不需要任何代码了 就是如此简单
+
+
+//定义css、img、js常量
+define("SITE_URL","http://127.0.0.1/myproject/rbac/");
+
+
+define('ADMIN_IMG',SITE_URL.'public/admin/img/');
+var_dump(__ROOT__);
+var_dump(__APP__);
+var_dump(SITE_URL);
+
+//var_dump( ADMIN_IMG );
